@@ -8,6 +8,8 @@ i-chenzhe库  : https://github.com/i-chenzhe/qx
 
 shuye73   :  https://github.com/shuye73/MyActions
 
+Choicc  :   https://github.com/Choicc/MyActions
+
 
 ## 环境变量说明
 
