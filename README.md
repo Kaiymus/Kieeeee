@@ -1,5 +1,5 @@
 
-  
+项目已作废,仅为备份
 
 Zero205库 : https://github.com/zero205/JD
 
