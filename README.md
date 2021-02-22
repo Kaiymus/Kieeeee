@@ -1,4 +1,4 @@
-自用脚本上传直达: https://github.com/seamly01/QuantumultX/tree/master/Task
+
   
 京东脚本更新 : https://github.com/Kaiymus/jd_scripts
 
