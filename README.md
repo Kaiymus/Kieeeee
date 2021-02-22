@@ -1,6 +1,5 @@
 
   
-京东脚本更新 : https://github.com/Kaiymus/jd_scripts
 
 Zero205库 : https://github.com/zero205/JD
 
