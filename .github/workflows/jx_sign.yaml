@@ -49,4 +49,4 @@ jobs:
                   SYNCURL: jx_sign.js
                   REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
-                  IGNORE_COOKIE_JXNC: ${{ github.event.client_payload.IGNORE_COOKIE_JXNC || secrets.IGNORE_COOKIE_JXNC }}
+                  #IGNORE_COOKIE_JX: ${{ github.event.client_payload.IGNORE_COOKIE_JX || secrets.IGNORE_COOKIE_JX }}
