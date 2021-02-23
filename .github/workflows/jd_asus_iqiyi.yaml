@@ -7,7 +7,7 @@ name: 京东_华硕爱奇艺(至2021-02-28)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "58 15 22-29 2 *"
+        - cron: "59 15 22-29 2 *"
     watch:
         types: [started]
     repository_dispatch:
