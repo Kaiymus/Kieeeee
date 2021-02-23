@@ -49,5 +49,5 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   PURCHASE_SHOPS: ${{ github.event.client_payload.PURCHASE_SHOPS || secrets.PURCHASE_SHOPS }}
                   SYNCURL: jd_small_home.js
-                  REPOURL: https://raw.githubusercontent.com/shuye73/MyActions/main/
+                  REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
