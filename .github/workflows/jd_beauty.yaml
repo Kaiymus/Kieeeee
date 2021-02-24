@@ -6,7 +6,7 @@ name: 美丽研究院
 on:
     workflow_dispatch:
     schedule:
-        - cron: "15 58 0,4,11,15 * * *"
+        - cron: "58 0,4,11,15 * * *"
     watch:
         types: [started]
     repository_dispatch:
