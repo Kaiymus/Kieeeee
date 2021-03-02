@@ -7,7 +7,7 @@ name: 京东节享京豆(至2021-03-8)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "58 12,23 22-29 2 *"
+        - cron: "58 12,23 * * *"
     watch:
         types: [started]
     repository_dispatch:
