@@ -46,6 +46,6 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   SYNCURL: jx_cfd.js
                   #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
-                  REPOURL: https://github.com/shuye73/MyActions/raw/main/
+                  REPOURL: https://github.com/wuzhi01/MyActions/raw/main/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
                   CFD_NOTIFY_CONTROL: ${{ github.event.client_payload.CFD_NOTIFY_CONTROL || secrets.CFD_NOTIFY_CONTROL }}
