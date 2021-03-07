@@ -49,3 +49,4 @@ jobs:
                   REPOURL: https://github.com/wuzhi01/MyActions/raw/main/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
                   CFD_NOTIFY_CONTROL: ${{ github.event.client_payload.CFD_NOTIFY_CONTROL || secrets.CFD_NOTIFY_CONTROL }}
+                  JDCFD_SHARECODES: ${{ github.event.client_payload.JDCFD_SHARECODES || secrets.JDCFD_SHARECODES }}
