@@ -51,3 +51,4 @@ jobs:
                   #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   REPOURL: https://github.com/wuzhi01/MyActions/raw/main/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  JD_JXD_EXCHANGE: ${{ github.event.client_payload.JD_JXD_EXCHANGE || secrets.JD_JXD_EXCHANGE }}
