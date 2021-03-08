@@ -6,11 +6,11 @@ name: 京东极速版天天领红包(截至2021年3月3日)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "59 15 * * *"
+        - cron: "58 0,3,11,12 8-31 3 *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_speed_redpocke
+        types: jd_global
 
 jobs:
     build:
