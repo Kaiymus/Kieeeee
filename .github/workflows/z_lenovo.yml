@@ -6,7 +6,7 @@ name: I_chen联想集卡（截止3月26号）
 on:
     workflow_dispatch:
     schedule:
-        - cron: "3 6 17-30 3 *"
+        - cron: "3 1 17-30 3 *"
     watch:
         types: [started]
     repository_dispatch:
