@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_wish
+        types: z_mother_jump
 jobs:
     build:
         runs-on: ubuntu-latest
