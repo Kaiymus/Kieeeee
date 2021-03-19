@@ -1,4 +1,4 @@
-name: 联想集卡活动
+name: Ichen联想集卡活动(截至3月29号)
 
 on:
     workflow_dispatch:
