@@ -48,6 +48,6 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   UN_SUBSCRIBES: ${{ github.event.client_payload.UN_SUBSCRIBES || secrets.UN_SUBSCRIBES }}
                   SYNCURL: z_mother_jump.js
-                  REPOURL: https://raw.githubusercontent.com/i-chenzhe/qx/main/
+                  REPOURL: https://github.com/Cevin-Yu/qx-1/raw/main/
                   #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
