@@ -1,4 +1,4 @@
-name: cui512京东店铺签到
+name: cui521京东店铺签到
 
 on:
     workflow_dispatch:
