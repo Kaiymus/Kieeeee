@@ -1,13 +1,13 @@
-name: 摇金豆
+name: cui512京东店铺签到
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "57,58,59 15 * * *"
+        - cron: "15 4,16 * * *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_cash_exchange
+        types: jd_ShopSign
 
 jobs:
     build:
