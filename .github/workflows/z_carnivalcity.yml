@@ -6,7 +6,7 @@ name: dust-ichen手机狂欢城(截止4月21号)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "1 2,16 1-21 4 *"
+        - cron: "0 4-22/6 1-21 4 *"
     watch:
         types: [started]
     repository_dispatch:
