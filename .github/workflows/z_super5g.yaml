@@ -6,7 +6,7 @@ name: dust-Ichen_5g超级盲盒(截至4月31号)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "4 17,22,3,8,13 * * *"
+        - cron: "4 3,8,13,17,22 * * *"
     watch:
         types: [started]
     repository_dispatch:
