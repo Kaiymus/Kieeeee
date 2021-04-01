@@ -3,7 +3,7 @@ name:  手机狂欢城l
 on:
     workflow_dispatch:
     schedule:
-        - cron: "58 3,10,15,21 * * *"
+        - cron: "55 3,10,15,21 * * *"
     watch:
         types: [started]
     repository_dispatch:
