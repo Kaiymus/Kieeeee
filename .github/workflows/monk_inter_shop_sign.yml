@@ -1,7 +1,7 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: dust_n渠道店铺签到
+name: dust_n Intel渠道店铺签到
 
 on:
     workflow_dispatch:
@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: m_get_inter_shop_sign
+        types: monk_inter_shop_sign.js
 
 jobs:
     build:
@@ -72,6 +72,6 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: m_get_inter_shop_sign.js
-                  REPOURL: https://github.com/monk-coder/dust/raw/dust/normal/
+                  SYNCURL: monk_inter_shop_sign.js
+                  REPOURL: https://raw.githubusercontent.com/monk-coder/dust/dust/normal/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
