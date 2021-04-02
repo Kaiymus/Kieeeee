@@ -1,16 +1,16 @@
 # This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: Ichen美丽研究院(失效)
+name: jd_shoplottery
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "0 1,5,12,16 * * *"
+        - cron: "0 23 * * *"
     watch:
         types: [started]
     repository_dispatch:
-        types: jd_mlyjy
+        types: jd_shoplottery
 
 jobs:
     build:
@@ -48,6 +48,6 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   UN_SUBSCRIBES: ${{ github.event.client_payload.UN_SUBSCRIBES || secrets.UN_SUBSCRIBES }}
                   SYNCURL: jd_mlyjy.js
-                  REPOURL: https://raw.githubusercontent.com/gz154838009/jd_01/master1/
-                  #REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
+                  #REPOURL: https://raw.githubusercontent.com/gz154838009/jd_01/master1/
+                  REPOURL: ${{ github.event.client_payload.REPOURL || secrets.REPOURL }}
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
