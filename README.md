@@ -13,6 +13,8 @@ Choicc  :   https://github.com/Choicc/MyActions
 
 dust :  https://github.com/monk-coder/dust
 
+lun :   https://github.com/lunnlew/TakeBucketLook
+
 ## 环境变量说明
 
 ##### 京东(必须)
