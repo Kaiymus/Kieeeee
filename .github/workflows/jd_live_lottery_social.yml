@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: z_unionPoster
+        types: jd_live_lottery_social
 jobs:
     build:
         runs-on: ubuntu-latest
