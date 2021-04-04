@@ -1,12 +1,12 @@
 #This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
 
-name: I_chen家电美的节（截止3月31号）
+name: me全局直播间抽奖
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "3 6 17-31 3 *"
+        - cron: "0 0-16/2 * * *"
     watch:
         types: [started]
     repository_dispatch:
@@ -46,6 +46,6 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   MONEY_TREE_SELL_FRUIT: ${{ github.event.clienz_wish.jst_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
-                  SYNCURL: z_unionPoster.js
-                  REPOURL: https://github.com/Cevin-Yu/qx-1/raw/main/
+                  SYNCURL: jd_live_lottery_social.js
+                  REPOURL: https://raw.githubusercontent.com/lys66666/Yieeee/main/scripts/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
