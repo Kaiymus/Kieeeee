@@ -6,7 +6,7 @@ name: me全局直播间抽奖
 on:
     workflow_dispatch:
     schedule:
-        - cron: "1 0-16/4 * * *"
+        - cron: "29 0-16/4 * * *"
     watch:
         types: [started]
     repository_dispatch:
