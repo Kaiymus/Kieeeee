@@ -10,7 +10,7 @@ on:
     watch:
         types: [started]
     repository_dispatch:
-        types: monk_shop_add_to_car
+        types: monk_skyworth
 
 jobs:
     build:
