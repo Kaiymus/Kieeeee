@@ -25,7 +25,7 @@ jobs:
             - name: npm install
               run: |
                   npm install
-            - name: "运行 【金口碑奖投票】"
+            - name: "运行 【app】"
               run: |
                   node onlyOneExecute.js
               env:
