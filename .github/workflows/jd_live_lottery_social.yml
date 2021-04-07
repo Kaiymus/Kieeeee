@@ -47,5 +47,5 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   MONEY_TREE_SELL_FRUIT: ${{ github.event.clienz_wish.jst_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
                   SYNCURL: jd_live_lottery_social.js
-                  REPOURL: https://raw.githubusercontent.com/lys66666/Yieeee/main/scripts/
+                  REPOURL: https://raw.githubusercontent.com/lys01/Yieeed/main/scripts/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
