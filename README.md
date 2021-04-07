@@ -7,7 +7,7 @@ Zero205库 : https://github.com/zero205/JD
 
 i-chenzhe库  : https://github.com/gz154838009/jd_01
 
-573462273    :  https://github.com/573462273/JDMyself/raw/main/scripts/
+573462273    :  https://github.com/573462273/jdsign1112
 
 shuye73   :  https://github.com/wuzhi01/MyActions
 
