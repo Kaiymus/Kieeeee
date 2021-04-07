@@ -16,6 +16,8 @@ Choicc  :   https://github.com/Choicc/MyActions
 dust :  https://github.com/monk-coder/dust
 
 tubie :   https://github.com/tubie75/jdqd
+
+yyds     https://github.com/yysy/jd_scripts
 ## 环境变量说明
 
 ##### 京东(必须)
