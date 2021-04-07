@@ -9,7 +9,7 @@ gz154838009库  : https://github.com/gz154838009/jd_01
 
 573462273    :  https://github.com/573462273/jdsign1112
 
-shuye73   :  https://github.com/wuzhi01/MyActions
+shuye73   :  https://github.com/wuzhi03/MyActions
 
 Choicc  :   https://github.com/Choicc/MyActions
 
