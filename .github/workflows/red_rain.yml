@@ -22,7 +22,7 @@ jobs:
             - name: 安装依赖包
               run: |
                   npm install
-            - name: "运行【联想集卡活动】"
+            - name: "运行【app】"
               run: |
                   node onlyOneExecute.js
               env:
