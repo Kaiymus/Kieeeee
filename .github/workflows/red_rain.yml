@@ -1,13 +1,12 @@
-name: Ichen联想集卡活动(截至3月29号)
+name: dust_Ichen京东直播红包雨
 
 on:
     workflow_dispatch:
     schedule:
-        - cron: "12 7 15-29 3 *"
-    watch:
+        - cron: "56 15,0,2,4,6,8,10,11,12,14 * 4-6 *
         types: [started]
     repository_dispatch:
-        types: z_lenovo
+        types: red_rain
 
 jobs:
     build:
@@ -70,6 +69,6 @@ jobs:
                   QYWX_AM: ${{ github.event.client_payload.QYWX_AM || secrets.QYWX_AM }}
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
-                  SYNCURL: z_lenovo.js
-                  REPOURL: https://raw.githubusercontent.com/gz154838009/jd_01/master1/
+                  SYNCURL: red_rain.js
+                  REPOURL: https://raw.githubusercontent.com/monk-coder/dust/dust/backup/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
