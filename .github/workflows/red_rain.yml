@@ -3,7 +3,7 @@ name: dust_Ichen京东直播红包雨
 on:
     workflow_dispatch:
     schedule:
-        - cron: "56 0,2,4,6,8,10,11,12,14,15 * * *"
+        - cron: "58 15 5-12 4 *"
         types: [started]
     repository_dispatch:
         types: red_rain
