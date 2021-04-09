@@ -75,5 +75,5 @@ jobs:
                   SYNCURL: z_super5g.js
                   REPOURL: ${{ github.event.client_payload.ICHEN || secrets.ICHEN }}
                   #REPOURL: https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/
-                  BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
+                  BANSTR: ${{ github.event.client_payload.SHYLOCKS || secrets.SHYLOCKS }}
                   JSMOBILEFESTIVAL_SHARECODES: ${{ github.event.client_payload.JSMOBILEFESTIVAL_SHARECODES || secrets.JSMOBILEFESTIVAL_SHARECODES }}
