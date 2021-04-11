@@ -6,7 +6,7 @@ name: dust-ichen京东小魔方(截至4月9号)
 on:
     workflow_dispatch:
     schedule:
-        - cron: "18 23 * * *"
+        - cron: "18 16 * * *"
     watch:
         types: [started]
     repository_dispatch:
