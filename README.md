@@ -15,7 +15,7 @@ Choicc  :   https://github.com/Choicc/MyActions
 
 dust :  https://github.com/arukas-y/zhe
 
-        https://github.com/sensi-ribbed/temple
+dust2 :  https://github.com/sensi-ribbed/temple
 
 tubie :   https://github.com/tubie75/jdqd
 
