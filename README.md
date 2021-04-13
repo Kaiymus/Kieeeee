@@ -19,6 +19,8 @@ dust2 :  https://github.com/sensi-ribbed/temple
 
 tubie :   https://github.com/tubie75/jdqd
 
+acy01:  https://github.com/ZCY01/daily_scripts
+
 yyds     https://github.com/yysy/jd_scripts
 ## 环境变量说明
 
