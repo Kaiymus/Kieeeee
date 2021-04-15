@@ -72,7 +72,5 @@ jobs:
                   PUSH_PLUS_TOKEN: ${{ github.event.client_payload.PUSH_PLUS_TOKEN || secrets.PUSH_PLUS_TOKEN }}
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   SYNCURL: monk_vinda.js
-                  REPOURL: ${{ github.event.client_payload.SHYLOCKS || secrets.SHYLOCKS }}
-                  #REPOURL: ${{ github.event.client_payload.DUSTM || secrets.DUSTM }}
-                  #REPOURL: https://raw.githubusercontent.com/sensi-ribbed/temple/89db3879c5e92af4b18a97d39f5201bfe2b9a1e9/member/
+                  REPOURL: https://raw.githubusercontent.com/seamly888/Alie/JD-Shylocks/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}

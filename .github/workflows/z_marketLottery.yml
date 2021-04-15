@@ -48,6 +48,5 @@ jobs:
                   PUSH_PLUS_USER: ${{ github.event.client_payload.PUSH_PLUS_USER || secrets.PUSH_PLUS_USER }}
                   MONEY_TREE_SELL_FRUIT: ${{ github.event.clienz_wish.jst_payload.MONEY_TREE_SELL_FRUIT || secrets.MONEY_TREE_SELL_FRUIT }}
                   SYNCURL: z_marketLottery.js
-                  REPOURL: ${{ github.event.client_payload.SHYLOCKS || secrets.SHYLOCKS }}
-                  #REPOURL: https://raw.githubusercontent.com/monk-coder/dust/dust/i-chenzhe/
+                  REPOURL: https://raw.githubusercontent.com/seamly888/Alie/JD-Shylocks/
                   BANSTR: ${{ github.event.client_payload.BANSTR || secrets.BANSTR }}
